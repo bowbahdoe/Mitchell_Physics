@@ -1,0 +1,23 @@
+CLS
+pi = 3.14
+g = 9.8
+d = .01
+msling = 7!
+v1 = 0
+'Lprint "the mass of the sling=" ; msling; " kg "
+PRINT "input the ball's mass"
+'Lprint "the ball's mass"
+INPUT mball
+'Lprint "the ball's mass=" ;mball;" kg"
+
+PRINT "input the board's length (from vertex to shot origin)"
+'Lprint "input the board's length (from vertex to shot origin)"
+INPUT a
+
+
+
+
+
+
+
+

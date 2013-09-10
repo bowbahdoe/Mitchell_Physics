@@ -1,0 +1,7 @@
+CLS
+X = .01
+g = 9.8
+masssling=
+massball=
+totalmass = masssling
+

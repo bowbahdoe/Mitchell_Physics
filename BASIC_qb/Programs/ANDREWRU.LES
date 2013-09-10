@@ -1,0 +1,6 @@
+CLS
+F1 = 0
+DO UNTIL F2 = 100000
+Ms=5.9 REM mass of sling in grams
+READ F2
+
