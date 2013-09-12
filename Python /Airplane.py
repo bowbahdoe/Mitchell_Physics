@@ -43,7 +43,7 @@ def checkAnswer(windspeed=None,airspeed=None):
     print " "
     print "How many hours do you say the trip will last?"
     time = eval(raw_input())
-    if abs(r-resval) > (.05 * r) or abs(time - 800/r) > (.05 * 800/r):
+    if abs(r-resval) < (.05 * r) or abs(time - 800/r) < (.05 * 800/r):
         report(r,m,True)
     else:
         pass
