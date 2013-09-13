@@ -1,10 +1,14 @@
 
 
+                               
 
 
 
 
-'AIRPLANE PROBLEM
+
+
+
+'AIRPLANE PROBLEM          
 'A I R P L A N E  P R O B L E M
 'A  I  R  P  L  A  N  E    P  R  O  B  L  E  M
 'A   I   R   P   L   A   N   E      P   R   O   B   L   E   M
@@ -25,8 +29,6 @@
 '
 '
 '
-'
-'
 
 '
 '
@@ -34,12 +36,19 @@
 '
 '
 '
-'CLS
+'
+'
+'
+'
+
+
+CLS
 
 
 menu:
 
-4 PRINT "This program produces an airplane vector problem with random values"
+
+PRINT "This program produces an airplane vector problem with random values"
 PRINT "  of wind velocity and airplane velocity."
 PRINT
 menu1:
@@ -51,12 +60,12 @@ PRINT "                  2    Print just one problem for yourself."
 PRINT
 PRINT "                  3    Print multiple problems."
 PRINT
-PRINT "                  4   Check; the; answer; you; calculated; "; ""
+PRINT "                  4    Check the answer you calculated"
 PRINT
 PRINT "                  5    QUIT"
      
      
-         INPUT n
+        INPUT n
 
               
                IF n = 1 GOTO sample
@@ -131,7 +140,7 @@ answer:
                 PRINT "airspeed = "; a
 
                 z = .6666667 * p
- fb j = SQR((a * a) - (w * w * (SIN(z)) * (SIN(z))))
+                 j = SQR((a * a) - (w * w * (SIN(z)) * (SIN(z))))
                 y = ATN(w * (SIN(z)) / j)
                 x = p - (z + y)
                 r = a * (SIN(x)) / (SIN(z))

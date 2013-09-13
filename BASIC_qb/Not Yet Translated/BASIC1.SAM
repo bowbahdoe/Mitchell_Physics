@@ -1,0 +1,2326 @@
+[ver]
+	4
+[sty]
+
+[lay]
+	Standard
+	513
+	[rght]
+		15840
+		12240
+		1
+		1440
+		1440
+		1
+		1440
+		1440
+		0
+		1
+		0
+		1
+		1
+		2
+		1
+		1440
+		10800
+		0
+	[hrght]
+	[lyfrm]
+		1
+		11200
+		0
+		0
+		12240
+		1440
+		0
+		1
+		3
+		1 0 0 0 0 0 0
+		0
+		0
+		1
+	[frmlay]
+		1440
+		12240
+		1
+		1440
+		72
+		1
+		792
+		1440
+		0
+		1
+		0
+		1
+		1
+		0
+		1
+		1440
+		10800
+		1
+		3
+		9360
+	[txt]
+>
+	[frght]
+	[lyfrm]
+		1
+		13248
+		0
+		14400
+		12240
+		15840
+		0
+		1
+		3
+		1 0 0 0 0 0 0
+		0
+		0
+		2
+	[frmlay]
+		15840
+		12240
+		1
+		1440
+		792
+		1
+		14472
+		1440
+		0
+		1
+		0
+		1
+		1
+		0
+		1
+		1440
+		10800
+		2
+		2
+		4680
+		3
+		9360
+	[txt]
+>
+[elay]
+[l1]
+	0
+[edoc]
+<:f540, Times New Roman,,,><+@><:f540, Times New Roman,,,><+">What is a Program?<-">
+
+<:f540, Times New Roman,,,>
+
+<:f540, Times New Roman,,,>
+
+<:f540, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:I0,0,0,0><:f220, Times New Roman,,,>A "program" is a sequence of instructions to the computer, in a language both you 
+and the computer understand.  Each instruction is called a "statement" and usuauy 
+takes up one line in the program.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:I0,0,0,0>The goal of any program is to perform some useful job, such as word processing, 
+bookkeeping, or playing a game.  Programming is the process of deciding what 
+you want the program to do.  Then you select and arrange language statements to 
+accomplish the individual tasks needed to reach the overall goal.  Tbs process is 
+part science, part art.  The science comes from books; the art is learned by writing 
+your own programs and analyzing programs written by others.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+C><:I0,0,0,0>Many BASIC statements have additional features that are not described in this 
+chapter.  If you want more information about a particular statement or language 
+feature, please refer to Chapter 8, "Statement and Function Summary," in <+">Pro<-"><+">gramming in BASIC <-">or consult QuickBASIC's on-line help.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f520, Times New Roman,,,><+@><:f520, Times New Roman,,,><+">Comments<-">
+
+<:f520, Times New Roman,,,>
+
+<:f520, Times New Roman,,,>
+
+<:f520, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:I0,0,0,0><:f220, Times New Roman,,,>Comments are an important part of programming.  They explain the program to 
+others, and remind you why you wrote it the way you did, Comments begin with 
+an apostrophe, and can extend to the end of the line, as follows:
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:f160, Times New Roman,,,><:f220, Times New Roman,,,>I <:f160, Times New Roman,,,>This is a comment.
+
+<:f160, Times New Roman,,,>
+
+<:f160, Times New Roman,,,><+@>CLS                      I The <+!>CLS <-!>statement clears the screen.
+
+<:f160, Times New Roman,,,>
+
+<:f200, Times New Roman,,,><+@><:f200, Times New Roman,,,>The apostrophe telas OuickBASIC <+!>that <-!>everv@@2 between the apostrophe and the
+
+<:f200, Times New Roman,,,><+@>end of the line is a comment.
+
+<:f200, Times New Roman,,,>
+
+<:f200, Times New Roman,,,>
+
+<:f200, Times New Roman,,,>
+
+<:f500, Times New Roman,,,><+@><:f500, Times New Roman,,,><+">Displaying Words and Numbers on the Screen<-">
+
+<:f500, Times New Roman,,,>
+
+<:f500, Times New Roman,,,>
+
+<:f500, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:I0,0,0,0><:f220, Times New Roman,,,>You are probably familiar with application software such as Lotus@@ 1-2-38 or 
+Microsoft Word.  These and most other programs communicate with the user by 
+displaying words, numbers, and data on the screen.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f200, Times New Roman,,,><+@><:f200, Times New Roman,,,>The <+!>PRINT <-!>statement is BASIC's command for writing on the screen.  Two of the
+
+<:f200, Times New Roman,,,><+@>things <+!>PRINT <-!>can display are strings and numbers.
+
+<:f200, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:I0,0,0,0><:f220, Times New Roman,,,>A "string" is any group of characters (letters, numbers, punctuation marks) enclosed in quotes.  The following example program shows how the <+!>PRINT <-!>statement displays a string:
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+C><:R1,1,1,432,><:I0,0,432,0>1.	Start QuickBASIC (if it is not already started) by typing qb and pressing 
+<:f180, Times New Roman,,,>ENTER.
+
+<:f180, Times New Roman,,,>
+
+<:f180, Times New Roman,,,><+C><:R1,1,1,432,><:I0,0,432,0>2.	Type the following line in ttie Immediate window, then press ENTER:
+
+<:f180, Times New Roman,,,>
+
+<:f180, Times New Roman,,,><+C><:R1,1,1,432,><:I0,0,0,0>PRINT "Hello, world"
+
+<:f180, Times New Roman,,,>
+
+<:f180, Times New Roman,,,><+C><:R1,1,1,432,><:I0,0,0,0>The output should appear as follows:
+
+<:f180, Times New Roman,,,>
+
+<:f180, Times New Roman,,,><+C><:R1,1,1,432,><:I0,0,0,0>Hello, world
+
+<:f180, Times New Roman,,,>
+
+<:f180, Times New Roman,,,>
+
+<:f180, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:I0,0,0,0><:f220, Times New Roman,,,>The quotes that surround a string are not part of the string, so they do not appear in the display.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f240, Times New Roman,,,><+C><:R1,1,1,576,><:I0,0,576,0><:f200, Times New Roman,,,><:f240, Times New Roman,,,>3.	<:f200, Times New Roman,,,><+!>Type <-!>CLS intheImmediatewindowandpressENTERtocleartheoutput 
+screen.
+
+<:f200, Times New Roman,,,>
+
+<:f200, Times New Roman,,,>
+
+<:f200, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:I0,0,0,0><:f220, Times New Roman,,,><+">NOTE BASICisnotcasesensigve;youdon'thavatoontertheexampleswiththe<-"> <+">a<-"> 
+<+">shown.  QuickBASIC automafically capitalizes words that are part of the BASIC language but leaves<-"> 
+<+">everything else as you enter it.  The examples in this chapter are shown the way QuickBASIC for<-"><+">mats them, and each program's output is shom7 exactly as it appears on the screen.<-">
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f200, Times New Roman,,,><+@><:f200, Times New Roman,,,>The <+!>PRINT <-!>statement can also display numbers as shown in the following ex-
+
+<:f200, Times New Roman,,,><+@>amdle
+
+<:f200, Times New Roman,,,>
+
+<:f200, Times New Roman,,,>
+
+<:f200, Times New Roman,,,>
+
+<:f200, Times New Roman,,,><+C><:R1,1,1,432,><:I0,0,432,0><:S+540>1.	Type the following line in the Immediate window, then press EWER: 
+<:f160, Times New Roman,,,>PRINT 63 
+<:f200, Times New Roman,,,>The output should appear as follows:<:S+540>
+
+<:f160, Times New Roman,,,><+C><:R1,1,1,432,><:I0,432,432,0><:f160, Times New Roman,,,>63<:S+540>
+
+<:f200, Times New Roman,,,><+C><:S+270><:f200, Times New Roman,,,>2. Type CLS in the immediate window and press <:f160, Times New Roman,,,><+!>ENTER <:f200, Times New Roman,,,><-!>to       ar    output
+
+<:f200, Times New Roman,,,><+C><:R1,1,1,288,><:I0,0,0,0>screen.
+
+<:f200, Times New Roman,,,>
+
+<:f600, Times New Roman,,,><+@><:f600, Times New Roman,,,><+">Variables<-">
+
+<:f600, Times New Roman,,,>
+
+<:f600, Times New Roman,,,>
+
+<:f600, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:I0,0,0,0><:f220, Times New Roman,,,>P'rograms take data from the outside world (input), then process it to produce useful information (output).  The input and output data are stored in the computer's 
+memory.  Variable names are used to keep track of where the data are stored.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f460, Times New Roman,,,><+@><:f460, Times New Roman,,,><+">Storing Data in memory<-">
+
+<:f460, Times New Roman,,,>
+
+<:f460, Times New Roman,,,>
+
+<:f460, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:R1,1,1,432,><:I0,432,432,0><:f220, Times New Roman,,,>Computer memorv is divided into storage locations, each of which
+
+<:f220, Times New Roman,,,><+@><:R1,2,1,432,1,864,><:I0,432,864,0><:f80, Times New Roman,,,><:f220, Times New Roman,,,>c <:f80, Times New Roman,,,>4	<:f220, Times New Roman,,,>address." The address is a number that gives the memory location, the same way 
+your house address shows where you live on a street.  Every piece of data has its 
+own storage location and matching address (see Figure 4. 1).
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+B><:R1,2,1,432,1,864,>a urn' que
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><+!>Figure 4.1 Addresses <-!>In <+!>Memory<-!>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@>Fo@@tely, you don't have to keep track of the address for every data item.
+
+<:f220, Times New Roman,,,><+@>BASIC uses a "variable name" to associate a word of your choice <+!>with <-!>a memory
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@>location in the computer.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:I0,0,0,0>BASIC does the associating automatically.  Every time you use a variable name 
+that BASIC hasn't seen before, BASIC finds an unused memory location and associates the new variable name with that address.  You can then use the variable 
+name without having to know its address.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:I0,0,0,0>ThefollowingexampleprogramdemonstratestWs.Notethat Hello, world is 
+not enclosed in quotes in this example.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+C><:R1,1,1,432,><:I0,0,432,0><:S+540>1.	Type the following line in <+!>ttie <-!>Immediate window, then press ENTER: 
+PRINT Heilo, world 
+The output should appear as follows:<:S+540>
+
+<:f220, Times New Roman,,,><+C><:R1,1,1,432,><:I0,432,432,0><:S+270>0               0
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+C><:R1,1,1,432,><:I0,0,432,0>2.	Type CLS in the Immediate window and press <+!>ENTER <-!>to clear the output 
+screen.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:I0,0,0,0>WhenBASICencounters Hello and world,ithastodecidewhatthesewords 
+are.  They aren't keywords (that is, they aren't part of the BASIC language), as 
+<+!>PRINT <-!>is.  They aren't strings, because they aren't enclosed in quotes.  They are definitelynotnumbers.Therefore, Hello and world mustbevariables.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:I0,0,0,0>Once this decision is made, BASIC sets aside storage space for two new variables 
+<:f180, Times New Roman,,,><:f220, Times New Roman,,,>named <:f180, Times New Roman,,,>Hello and world.Newvafiablesarealwaysgivenaninitialvalueof 
+zero, so the <+!>PRINT <-!>statement displays two zeros.
+
+<:f180, Times New Roman,,,>
+
+<:f180, Times New Roman,,,>
+
+<:f180, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:I0,0,0,0><:f220, Times New Roman,,,>A variable name can contain digits, but the naine camot begin with a digit.  Any 
+word starfing with a digit is interpreted as a number.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@>Names allowed in BASIC include:
+
+<:f220, Times New Roman,,,>
+
+<:f160, Times New Roman,,,><+@><:f160, Times New Roman,,,>gerbils
+
+<:f160, Times New Roman,,,><+@>birthdate
+
+<:f160, Times New Roman,,,><+@>name3
+
+<:f160, Times New Roman,,,><+@>ep45lp33
+
+<:f160, Times New Roman,,,>
+
+<:f160, Times New Roman,,,>
+
+<:f160, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:f220, Times New Roman,,,><+!>These are illegal names:<-!>
+
+<:f220, Times New Roman,,,>
+
+<:f160, Times New Roman,,,><+@><:f160, Times New Roman,,,>5remove
+
+<:f160, Times New Roman,,,><+@><+!>4.3less<-!>
+
+<:f160, Times New Roman,,,>
+
+<:f440, Times New Roman,,,><+@><:f440, Times New Roman,,,><+">Variable Types<-">
+
+<:f440, Times New Roman,,,>
+
+<:f440, Times New Roman,,,>
+
+<:f440, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:I0,0,0,0><:f220, Times New Roman,,,>Data do not come in just one form.  Programming languages, therefore, need different types of variables to hold different @@s of data.  BASIC has three categories 
+of variables: integer, floating point, and string.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f340, Times New Roman,,,><+@><:f340, Times New Roman,,,><+">Integer Variables<-">
+
+<:f340, Times New Roman,,,>
+
+<:f340, Times New Roman,,,>
+
+<:f340, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:I0,0,0,0><:f220, Times New Roman,,,>An integer number is a whole number, without a fractional parl For example, 0, 
+-45, and 1278 are integers.  Integer numbers are stored in integer variables.
+
+<:f220, Times New Roman,,,><+@><:I0,0,0,0>BASIC has two types of integer variables: integer and long integer
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:I0,0,0,0>A variable name ending 'm % is an integer variable.  Integer variables can have 
+any whole-number value between -32,768 and 32,767.  A variable name ending 
+in & is a long-integer variable and can have any whole-number value between 
+-2,147,483,648 and 2,147,483,647.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f500, Times New Roman,,,><+@><:f500, Times New Roman,,,><+">Fioating-pointVariables<-">
+
+<:f500, Times New Roman,,,>
+
+<:f500, Times New Roman,,,>
+
+<:f500, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:I0,0,0,0><:f220, Times New Roman,,,>A floating-point number can have a fractional part (though it doesn't have to).   
+For exatnple, 0. 123, 78.26, 7.0, and 1922.001234 are all floating-point numbers.   
+Floating-point numbers are stored in floating-point variables.  BASIC has two 
+types of floating-point vanables: single precision and double precision.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:I0,0,0,0>A variable name ending in a letter, a digit, or t. is a single-precision floating-point 
+variable.  Single-precision floating-point numbers can have values ranging from 
+about -3.4 <+">x lir <-">to 3.4 x 10 (that's 34 with 37 zeros following).  A singleprecision floating-point v able is accurate to only about 7 decimal places.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:I0,0,0,0>A variable name ending 'm # is a double-precision floating-point variable and can 
+have values from about -1.7 x l@@ to 1.7 x 101 (that's 17 with 307 zeros follow. 
+ing!).  A double-pmcision floating-point variable can hold much larger numbers 
+dm a single-precision variable, and it is also more accurate- to about 15 decimal places.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:I0,0,0,0>Single-precision floating-point numbers are <+!>the <-!>kind most often used in calculations, since "real-world" applications usually need numbers with fractional parts. 
+(Prices are a good example.) Since single-precision floating-point variables are so
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f600, Times New Roman,,,><+@><:f600, Times New Roman,,,><+">A<-">
+
+<:f600, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:I0,0,0,0><:f220, Times New Roman,,,>commonly used, they are the "default" data type; that is, if a variable name does 
+not end with a "type" character (%, &, #, !, or $), it is assumed to be a s'mj_zleprecision floating-point variable.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:I0,0,0,0>Note, however, that calculations with integer variables take much less computer 
+time @@ those performed with floating-point variables.  Integer variables should 
+be used when speed is required.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:I0,0,0,0>The numerical variables in the rema'm'mg examples in this chapter are marked 
+with the appropriate type suffix, either ! or %. Although most of these are singleprecision floating-point variables, which need no type suffix, they are given the ! 
+suffix for clarity.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f400, Times New Roman,,,><+@><:f400, Times New Roman,,,><+">String Variables<-">
+
+<:f400, Times New Roman,,,>
+
+<:f400, Times New Roman,,,>
+
+<:f400, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:I0,0,0,0><:f220, Times New Roman,,,>A string variable holds a sequence (a string) of characters.  A variable narne ending 
+in $ is a string variable.  Just as a numeric variable is given an initial value of 0, a 
+newly defined string variable is assigned an tial length of zero.  It contains no 
+data at all, not even blank spaces.  If blank$ has not previously been given a 
+value, the statement
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f160, Times New Roman,,,><+@><:f160, Times New Roman,,,>PRINT <+!>blank$<-!>
+
+<:f160, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:f220, Times New Roman,,,><+!>displays an empty @@e.<-!>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f460, Times New Roman,,,><+@><:f460, Times New Roman,,,><+">Assigning Values to Variables<-">
+
+<:f460, Times New Roman,,,>
+
+<:f460, Times New Roman,,,>
+
+<:f460, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:I0,0,0,0><:f220, Times New Roman,,,>A variable gets its value Omugh an "assigmnenf' statement.  An assignment statement has @@ comporients- the variable that receives a new value; an equal sign 
+(=); and <+!>the <-!>number, string, or calculation whose value the variable takes, on.   
+These are all valid assignment statements:
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f160, Times New Roman,,,><+@><:f160, Times New Roman,,,><+!>aqe% = <-!>41
+
+<:f160, Times New Roman,,,><+@>myname$ = "Willie"
+
+<:f160, Times New Roman,,,><+@>result! = result3! + lettvall + rightval!
+
+<:f160, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:I0,0,0,0><:f220, Times New Roman,,,>Integer division retains the integer (whole-number) part of the division and discards the fractional part.  Integer division is represented by \ (the backslash).  You 
+can @@ each of the following on a line in the Immediate window, then press 
+<:f180, Times New Roman,,,>ENTER <:f220, Times New Roman,,,>to see the results of the operations:
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:R1,2,1,144,1,2592,>	Operation	Resuft
+
+<:f220, Times New Roman,,,>
+
+<:f180, Times New Roman,,,><+@><:R1,2,1,144,1,2592,>	<:f180, Times New Roman,,,>PRINT 7 \ <:f220, Times New Roman,,,>3	<:f180, Times New Roman,,,>2
+
+<:f180, Times New Roman,,,><+@><:R1,2,1,144,1,2736,>	PRINT 9. 6 \ .4	5
+
+<:f180, Times New Roman,,,>
+
+<:f180, Times New Roman,,,>
+
+<:f180, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:I0,0,0,0><:f220, Times New Roman,,,>Both integer division and the remainder operator round off the numbers to be 
+operated on before the calculation is performed.  The number 9. 6 becomes 1 0 
+and 2. 4 becomes 2.fberefore, the result of the second example above is 5, 
+not 4.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:I0,0,0,0>The remainder operator is the complement of integer division.  The whole-number 
+part of the division is discarded, and the remainder is returned.  Remainder division is performed by the BASIC keyword <+!>MOD.  <-!>You can type each of the following on a line in the Immediate window, then press <:f180, Times New Roman,,,>ENTER <:f220, Times New Roman,,,>to see the results of the 
+operations:
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><+#>Result<-#>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@>1
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f240, Times New Roman,,,><+@><:f240, Times New Roman,,,>Operation
+
+<:f240, Times New Roman,,,>
+
+<:f180, Times New Roman,,,><+@><:f180, Times New Roman,,,>PRINT 7 MOD 3
+
+<:f180, Times New Roman,,,><+@>PRINT 11 MOD 4
+
+<:f180, Times New Roman,,,>
+
+<:f180, Times New Roman,,,>
+
+<:f180, Times New Roman,,,>
+
+<:f460, Times New Roman,,,><+@><:f460, Times New Roman,,,><+">Precedence of Operations<-">
+
+<:f460, Times New Roman,,,>
+
+<:f460, Times New Roman,,,>
+
+<:f460, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:I0,0,0,0><:f220, Times New Roman,,,>BASIC evaluates mathematical expressions from left to right, following the mles 
+of algebraic precedence: exponentiation is performed first, then multiplication and 
+division, then addition and subtraction.  The following example program Ulustrates 
+algebraic precedence:
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@>1. <+!>Type the following <-!>line <+!>in <-!>the Immediate window, then press <:f180, Times New Roman,,,>ENTER,
+
+<:f180, Times New Roman,,,>
+
+<:f180, Times New Roman,,,>
+
+<:f180, Times New Roman,,,>
+
+<:f160, Times New Roman,,,><+@><:R1,1,1,432,><:I0,432,432,0><:f160, Times New Roman,,,>PRINT 2 * 3 + 2 ' 3 - 2 / 3
+
+<:f160, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:R1,1,1,432,><:I0,432,432,0><:S+540><:f220, Times New Roman,,,>'[be output should appear as forows<:S+540>
+
+<:f160, Times New Roman,,,><+@><:R1,1,1,432,><:I0,432,432,0><:f160, Times New Roman,,,>13.33333<:S+540>
+
+<:f220, Times New Roman,,,><+C><:R1,1,1,432,><:I0,0,432,0><:S+270><:f220, Times New Roman,,,>2.	Type CLS in the Immediate window and press <:f160, Times New Roman,,,><+!>ENTER <-!>to <:f220, Times New Roman,,,>clear the output 
+screen.
+
+<:f220, Times New Roman,,,>
+
+<:f200, Times New Roman,,,><+@><:f200, Times New Roman,,,>Parentlieses can confirin or override the nonnal precedence, Try this example:
+
+<:f200, Times New Roman,,,>
+
+<:f200, Times New Roman,,,><+@><:R1,1,1,432,><:I0,0,432,0>1.	Type the following line in the Immediate window, then press ENTER: 
+PRINT (2 * 3) + (2 1 3) - (2 / 3)
+
+<:f200, Times New Roman,,,>
+
+<:f200, Times New Roman,,,><+@><:R1,1,1,432,><:I0,0,0,0>The output should appear as follows:
+
+<:f200, Times New Roman,,,>
+
+<:f200, Times New Roman,,,><+@><:R1,1,1,576,><:I0,576,576,0>13.33333
+
+<:f200, Times New Roman,,,>
+
+<:f200, Times New Roman,,,><+@><:R1,1,1,432,><:I0,0,432,0>2.	Type CLS in the Immediate window and preSS ENTER to clear the output
+
+<:f200, Times New Roman,,,><+@><:R1,1,1,432,><:I0,432,432,0>scr,een.
+
+<:f200, Times New Roman,,,>
+
+<:f200, Times New Roman,,,>
+
+<:f200, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:I0,0,0,0><:f220, Times New Roman,,,>The result is the saine as in the last example because the precedence of operations 
+dictated <+!>by <-!>the parentheses is no different from the usual order.  However, the next 
+<+!>exainple <-!>program produces a different result:
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f200, Times New Roman,,,><+@><:f200, Times New Roman,,,>1. Type the following line in the Immediate window, then reSS ENTER:
+
+<:f200, Times New Roman,,,>
+
+<:f200, Times New Roman,,,>
+
+<:f200, Times New Roman,,,>
+
+<:f160, Times New Roman,,,><+@><:R1,1,1,432,><:I0,432,432,0><:S+540><:f160, Times New Roman,,,>PRINT <+!>2 * (3 + 2) - (3 - 2 / 3)<-!><:S+540>
+
+<:f220, Times New Roman,,,><+@><:R1,1,1,432,><:I0,432,432,0><:f220, Times New Roman,,,><+!>The output should appear as follows <-!>-<:S+540>
+
+<:f160, Times New Roman,,,><+@><:R1,1,1,432,><:I0,432,432,0><:f160, Times New Roman,,,><+!>85.49879<-!><:S+540>
+
+<:f220, Times New Roman,,,><+C><:R1,1,1,432,><:I0,0,432,0><:S+270><:f220, Times New Roman,,,><+!>2.	Type CLS in the Immediate window and press ENTER to clear the output<-!> 
+<+!>screen.<-!>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:I0,0,0,0><+!>The result here is different because the <-!>calculations within parentheses are per<+!>formed first.  Within <-!>parentheses, the usual precedence still applies, of course, The 
+<+!>expression <-!>(3 - 2 / 3) evaluates as (3 - . 6 6 6 6 6 6 7) , not (1 / 3).
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:I0,0,0,0>You might want to use parentheses to control the order of calculations, rather than 
+depending on precedence.  Parentheses prevent effors and make your programs 
+easier to understand.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f420, Times New Roman,,,><+@><:f420, Times New Roman,,,><+">Math Functions<-">
+
+<:f420, Times New Roman,,,>
+
+<:f420, Times New Roman,,,>
+
+<:f420, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:I0,0,0,0><:f220, Times New Roman,,,>Along with the addition, subtraction, multiplication, and division operators just 
+presented, BASIC provides a number of common math functions, described 
+briefly below.  To use them, follow the function name with the variable or
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:f540, Times New Roman,,,><:f220, Times New Roman,,,>or <:f540, Times New Roman,,,>r-
+
+<:f540, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:I0,0,0,0><:f220, Times New Roman,,,>expression you want the function performed on (in parentheses).  The expression 
+may be any valid combination of variables, numbers, and math functions. (ExPressions are "plained further in the following section.)
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:R1,1,1,2448,><:I0,0,2448,0><+!><+#>Function<-!><-#>	<+!>Description<-!>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:R1,1,1,2448,><:I0,0,2448,0><+!>ABS<-!>	Retums the absolute value of <+!>the <-!>expression
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:R1,1,1,2448,><:I0,0,2448,0><+!>ATN<-!>	Retums the angle (in radians) whose tangent equals 
+the expression
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:R1,1,1,2448,><:I0,0,2448,0>Cos	Retums the cosine of an angle (in radians)
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:R1,1,1,2448,><:I0,0,2448,0><+!>EXP<-!>	Retums e to the power of <+!>the <-!>expression
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:R1,1,1,2448,><:I0,0,2448,0><+!>LOG<-!>	Retums the logarithm of the expression
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:R1,1,1,2448,><:I0,0,2448,0><+!>SGN<-!>	Retums -1 if the expression is less than 0; retums 0 
+if it is 0; retums +1 if it is greater than 0
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:R1,1,1,2448,><:I0,0,2448,0><+!>SIN<-!>	Retums the sine of an angle (in radians)
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:R1,1,1,2448,><:I0,0,2448,0><+!>SQR<-!>	Retums the square root of the expression
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:R1,1,1,2448,><:I0,0,2448,0><+!>TAN<-!>	Retums <+!>the <-!>tangent of an angle (in radians)
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@>The following example program shows the use of the square-root function:
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:R1,1,1,432,><:I0,0,432,0>1.	Choose the File menu's New Prograin conunand to clear the View window.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:R1,1,1,432,><:I0,0,432,0>2.	Tvt)e the following example in the View window:
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f160, Times New Roman,,,><+@><:R1,1,1,288,><:I0,288,288,0><:f160, Times New Roman,,,>adjacent! = 3.0
+
+<:f160, Times New Roman,,,><+@><:R1,1,1,288,><:I0,288,288,0>opposite! = 4.0
+
+<:f160, Times New Roman,,,><+@><:R1,1,1,432,><:I0,432,432,0>hypotenuse! = SQR((adjacent! ^ 2) + (opposite! ^ 2))
+
+<:f160, Times New Roman,,,><+@><:R1,1,1,432,><:I0,432,432,0>PRINT "the hypotenuse is-."; hypotenuse!
+
+<:f160, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+C><:R1,1,1,432,><:I0,0,432,0><:f220, Times New Roman,,,>3.	Choose the Run menu's Start command.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+C><:R1,1,1,432,><:I0,0,0,0>The output should look like the fouowmg:
+
+<:f220, Times New Roman,,,>
+
+<:f160, Times New Roman,,,><+C><:R1,1,1,432,><:I0,0,0,0><:f160, Times New Roman,,,>the hypotenuse is: 5
+
+<:f160, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+C><:R1,1,1,432,><:I0,0,432,0><:f220, Times New Roman,,,>4.	Type CLS in the IMMediate window and press <:f160, Times New Roman,,,><+!>ENTER to <:f220, Times New Roman,,,><-!>clear the output 
+screen.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:I0,0,0,0>expression you want the function performed on (in parentheses).  The expression 
+may be any valid combination of variables, numbers, and math functions. (ExPressions are "plained further in the following section.)
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:R1,1,1,2448,><:I0,0,2448,0><+!><+#>Function<-!><-#>	<+!>Description<-!>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:R1,1,1,2448,><:I0,0,2448,0><+!>ABS<-!>	Retums the absolute value of <+!>the <-!>expression
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:R1,1,1,2448,><:I0,0,2448,0><+!>ATN<-!>	Retums the angle (in radians) whose tangent equals 
+the expression
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:R1,1,1,2448,><:I0,0,2448,0>Cos	Retums the cosine of an angle (in radians)
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:R1,1,1,2448,><:I0,0,2448,0><+!>EXP<-!>	Retums e to the power of <+!>the <-!>expression
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:R1,1,1,2448,><:I0,0,2448,0><+!>LOG<-!>	Retums the logarithm of the expression
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:R1,1,1,2448,><:I0,0,2448,0><+!>SGN<-!>	Retums -1 if the expression is less than 0; retums 0 
+if it is 0; retums +1 if it is greater than 0
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:R1,1,1,2448,><:I0,0,2448,0><+!>SIN<-!>	Retums the sine of an angle (in radians)
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:R1,1,1,2448,><:I0,0,2448,0><+!>SQR<-!>	Retums the square root of the expression
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:R1,1,1,2448,><:I0,0,2448,0><+!>TAN<-!>	Retums <+!>the <-!>tangent of an angle (in radians)
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@>The following example program shows the use of the square-root function:
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:R1,1,1,432,><:I0,0,432,0>1.	Choose the File menu's New Prograin conunand to clear the View window.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:R1,1,1,432,><:I0,0,432,0>2.	Tvt)e the following example in the View window:
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f160, Times New Roman,,,><+@><:R1,1,1,288,><:I0,288,288,0><:f160, Times New Roman,,,>adjacent! = 3.0
+
+<:f160, Times New Roman,,,><+@><:R1,1,1,288,><:I0,288,288,0>opposite! = 4.0
+
+<:f160, Times New Roman,,,><+@><:R1,1,1,432,><:I0,432,432,0>hypotenuse! = SQR((adjacent! ^ 2) + (opposite! ^ 2))
+
+<:f160, Times New Roman,,,><+@><:R1,1,1,432,><:I0,432,432,0>PRINT "the hypotenuse is-."; hypotenuse!
+
+<:f160, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+C><:R1,1,1,432,><:I0,0,432,0><:f220, Times New Roman,,,>3.	Choose the Run menu's Start command.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+C><:R1,1,1,432,><:I0,0,0,0>The output should look like the fouowmg:
+
+<:f220, Times New Roman,,,>
+
+<:f160, Times New Roman,,,><+C><:R1,1,1,432,><:I0,0,0,0><:f160, Times New Roman,,,>the hypotenuse is: 5
+
+<:f160, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+C><:R1,1,1,432,><:I0,0,432,0><:f220, Times New Roman,,,>4.	Type CLS in the IMMediate window and press <:f160, Times New Roman,,,><+!>ENTER to <:f220, Times New Roman,,,><-!>clear the output 
+screen.
+
+<:f220, Times New Roman,,,>
+
+<:f600, Times New Roman,,,><+@><:f600, Times New Roman,,,><+">Expressions<-">
+
+<:f600, Times New Roman,,,>
+
+<:f600, Times New Roman,,,>
+
+<:f600, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:I0,0,0,0><:f220, Times New Roman,,,>An "expression" is what most people would call a formula.  An expression <+!>is <-!>any 
+combination of numbers, strings, variables, functions, and operators that can be 
+evaluated.  For example, 2 + 2 is a <+!>simple <-!>expression.  It evaluates to four.  Enter 
+the following statements in <+!>the <-!>View window to assign a variety of simple expressions to variables, as follows:
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:R1,1,1,432,><:I0,0,432,0>1.	Choose the File menu's New Program command to clear the View window.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:R1,1,1,432,><:I0,0,432,0>2.	Type the following example in the View window:
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f160, Times New Roman,,,><+@><:f160, Times New Roman,,,>square% = 3 1 2
+
+<:f160, Times New Roman,,,><+@><:I0,0,0,0>root! = SQR(3 ' <+">2)<-"> 
+greeting$ @@ "Hello," + " world! 11 
+strange! = 9 + "cats"
+
+<:f160, Times New Roman,,,>
+
+<:f160, Times New Roman,,,>
+
+<:f160, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:R1,1,1,432,><:I0,432,432,0><:f220, Times New Roman,,,>The last statement you typed was illegal.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+C><:R1,1,1,432,><:I0,0,432,0>3.	Choose the Run menu's Start command.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+C><:R1,1,1,432,><:I0,0,0,0>QuickBASIC displays the efformessage Type mismatch.  You cannot add 
+a number (or numerical variable) to a string (or string variable).
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+C><:R1,1,1,432,><:I0,0,432,0>4.	Type CLS in the Immediate window and press <+!>ENTER <-!>to clear the output 
+screen.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:I0,0,0,0>Expressions may be as complex as you like, with the results of one expression 
+passed to a function, the value returned by a f-uncfion combined with other expressions, and so on.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:I0,0,0,0>Almost any place you can use a number or a string, you can use any expression 
+(no matter how complex) that evaluates to a number or a string.  This means expressions can be used in BASIC's math functions, <+!>PRINT <-!>statements, and assignment statements.
+
+<:f220, Times New Roman,,,>
+
+<:f520, Times New Roman,,,><+@><:f520, Times New Roman,,,><+">Dispiaying Variables and Expressions<-">
+
+<:f520, Times New Roman,,,>
+
+<:f520, Times New Roman,,,>
+
+<:f520, Times New Roman,,,>
+
+<:f200, Times New Roman,,,><+@><:I0,0,0,0><:f200, Times New Roman,,,>The <+!>PRINT <-!>statement was fust shown in this chapter as a way to display numbers 
+and strings.fbe <+!>PRINT <-!>statement can also display the values of variables and expressions.  For example, try tbis:
+
+<:f200, Times New Roman,,,>
+
+<:f200, Times New Roman,,,>
+
+<:f200, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+C><:R1,1,1,432,><:I0,0,432,0><:S+540><:f220, Times New Roman,,,>1.	Type the following lines in the Immediate window, then press <:f180, Times New Roman,,,><+!>ENTER:<-!> 
+PRINT (2 + 8) / 4 + 1 
+<:f220, Times New Roman,,,>The output should appear as follows:<:S+540>
+
+<:f180, Times New Roman,,,><+C><:R1,1,1,432,><:I0,432,432,0><:f180, Times New Roman,,,>3.5<:S+540>
+
+<:f220, Times New Roman,,,><+C><:R1,1,1,432,><:I0,0,432,0><:S+270><:f220, Times New Roman,,,>2.	Type <:f180, Times New Roman,,,>CLS <:f220, Times New Roman,,,>in <+!>the <-!>Immediate window and press <:f180, Times New Roman,,,><+!>ENTER <-!>to <:f220, Times New Roman,,,>clear the output 
+screen.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:I0,0,0,0>The <+!>PRINT <-!>statement is quite flexible, it can display any combination of strings, 
+numbers, variables, and expressions.  The items to be displayed are separated by 
+semicolons (;) or commas (,).  When a semicolon separates two items, the second 
+item is displayed innnediately after the first, as shown in the exarnple prograin 
+below:
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:R1,1,1,432,><:I0,0,432,0><:S+540>1.	Type the following line in the Immediate window, then press <:f180, Times New Roman,,,><+!>ENTER' .<-!> 
+PRINT "Sum of 5.29 and"; 2.79 "is"- 5.29 + 2.79<:S+540>
+
+<:f180, Times New Roman,,,><+@><:R1,1,1,4176,><:I0,4176,4176,0>r<:S+540>
+
+<:f180, Times New Roman,,,>
+
+<:f180, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:R1,1,1,432,><:I0,432,432,0><:f220, Times New Roman,,,>The output should appear as follows,<:S+540>
+
+<:f160, Times New Roman,,,><+@><:R1,1,1,432,><:I0,432,432,0><:f160, Times New Roman,,,>sum of 5.29 and 2.79 is 8.08<:S+540>
+
+<:f220, Times New Roman,,,><+C><:R1,1,1,432,><:I0,0,432,0><:S+270><:f220, Times New Roman,,,>2.	Type C LS 'm the immediate window and press <:f160, Times New Roman,,,>ENRER <:f220, Times New Roman,,,>to clear the output 
+screen.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:S+540>Here's another example prograin to try:<:S+540>
+
+<:f220, Times New Roman,,,><+@>I .Choose the File menu's New Prograrn command to clear the View window.<:S+540>
+
+<:f220, Times New Roman,,,><+@><:R1,1,1,432,><:I0,0,432,0><:S+270>2.	Type the following ex ple in the View window:
+
+<:f220, Times New Roman,,,>
+
+<:f160, Times New Roman,,,><+@><:R1,1,1,432,><:I0,0,0,0><:f160, Times New Roman,,,>number = 36
+
+<:f160, Times New Roman,,,><+@><:R1,1,1,432,><:I0,0,0,0>PRINT "The sum of". number; "and 4 <+!>18"; <-!>number + 4 
+PRINT "The square f"; ,,,ber; "is"; number * numbs
+
+<:f160, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:R1,1,1,432,><:I0,0,432,0><:f220, Times New Roman,,,>3.	Choose the Run menu's Start command.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:R1,1,1,432,><:I0,0,0,0>The output should look like the following:
+
+<:f220, Times New Roman,,,>
+
+<:f160, Times New Roman,,,><+@><:R1,1,1,432,><:I0,0,0,0><:f160, Times New Roman,,,>The sum of 36 and 4 it 40
+
+<:f160, Times New Roman,,,><+@><:R1,1,1,432,><:I0,0,0,0>The square of 36 is 1296
+
+<:f160, Times New Roman,,,>
+
+<:f160, Times New Roman,,,>
+
+<:f160, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:R1,1,1,432,><:I0,0,432,0><:f220, Times New Roman,,,>4.	Type CLS in the Immediate window and press <:f180, Times New Roman,,,><+!>ENTER <-!>to clear the output
+
+<:f180, Times New Roman,,,><+@><:R1,1,1,432,><:I0,432,432,0>screen.
+
+<:f180, Times New Roman,,,>
+
+<:f180, Times New Roman,,,>
+
+<:f180, Times New Roman,,,>
+
+<:f200, Times New Roman,,,><+@><:I0,0,0,0><:f200, Times New Roman,,,>If two items in a <+!>PMNT <-!>statement are separated by a comm a, the second item is 
+positioned at the next preset tab location. (The tab stops are 14 columns apart.) 
+Note the difference between the output of the following <+!>PRINT <-!>statement and that 
+of the similar one with semicolons, above:
+
+<:f200, Times New Roman,,,>
+
+<:f200, Times New Roman,,,>
+
+<:f200, Times New Roman,,,>
+
+<:f200, Times New Roman,,,><+C><:R1,1,1,576,><:I0,0,576,0><:S+540><:f220, Times New Roman,,,><:f200, Times New Roman,,,>I.	<:f220, Times New Roman,,,>EnterthefoRowinglinesinthelmmediatewindow,thenpressENTER: 
+<:f180, Times New Roman,,,>PRINT "Sum of 5.29 and", 2.79, "is", 5.29 + 2.79 
+<:f220, Times New Roman,,,>The output should appear as follows:<:S+540>
+
+<:f180, Times New Roman,,,><+C><:R1,1,1,576,><:I0,576,576,0><:f180, Times New Roman,,,>Si2m of 5.29 and          2.79         is              8.08<:S+540>
+
+<:f180, Times New Roman,,,>
+
+<:f180, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:R1,1,1,432,><:I0,0,432,0><:S+270><:f220, Times New Roman,,,>2.	Type CLS in the Immediate window and press ENTER to clear the output
+
+<:f220, Times New Roman,,,><+@><:R1,1,1,432,><:I0,432,432,0>scr,een.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@>Commas and semicolons can be used in the sarne <+!>PRINT <-!>statement to position the
+
+<:f220, Times New Roman,,,><+@>items any way you like.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f200, Times New Roman,,,><+@><:f200, Times New Roman,,,>Each <+!>PRINT <-!>statement nomially
+
+<:f200, Times New Roman,,,><+@>exatnple program shows:
+
+<:f200, Times New Roman,,,>
+
+<:f200, Times New Roman,,,><+@>its output on a new line, the following
+
+<:f200, Times New Roman,,,>
+
+<:f200, Times New Roman,,,>
+
+<:f200, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:R1,1,1,432,><:I0,0,432,0><:f220, Times New Roman,,,>1.	Choose the le menu's New Program command to clear the View window.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:R1,1,1,432,><:I0,0,432,0>2.	Type the following example in the View window:
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f160, Times New Roman,,,><+@><:f160, Times New Roman,,,>PRINT <+!>"How old <-!>are <+!>you?"<-!>
+
+<:f160, Times New Roman,,,><+@>PRINT 41
+
+<:f160, Times New Roman,,,>
+
+<:f160, Times New Roman,,,>
+
+<:f160, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:f220, Times New Roman,,,>The output should appear as folao :
+
+<:f220, Times New Roman,,,>
+
+<:f160, Times New Roman,,,><+@><:f160, Times New Roman,,,>How old are you?
+
+<:f160, Times New Roman,,,><+@>41
+
+<:f160, Times New Roman,,,>
+
+<:f160, Times New Roman,,,>
+
+<:f160, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+C><:R1,1,1,432,><:I0,0,432,0><:f220, Times New Roman,,,>3.	Choose the Run menu's Start command.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+C><:R1,1,1,432,><:I0,0,432,0>4.	Type C LS in the Immediate window and idress ENTER cle r the output 
+screen.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f200, Times New Roman,,,><+@><:I0,0,0,0><:f200, Times New Roman,,,>If you want to combine the output of several <+!>PRINT <-!>statements on the same line, 
+place a semicolon (;) at the end of each <+!>PRINT <-!>statement.  Change the last example program as follows:
+
+<:f200, Times New Roman,,,>
+
+<:f200, Times New Roman,,,>
+
+<:f200, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:R1,1,1,432,><:I0,0,432,0><:f220, Times New Roman,,,>1.	Choose the File menu's New Program command to clear the View window.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:R1,1,1,432,><:I0,0,432,0>2.	Tnx <+!>ttie <-!>following example in the View window:
+
+<:f220, Times New Roman,,,>
+
+<:f160, Times New Roman,,,><+@><:R1,1,1,432,><:I0,0,0,0><:f160, Times New Roman,,,>PRINT "How old are you?";
+
+<:f160, Times New Roman,,,><+@><:R1,1,1,432,><:I0,0,0,0>PRINT 41
+
+<:f160, Times New Roman,,,>
+
+<:f160, Times New Roman,,,>
+
+<:f160, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:R1,1,1,432,><:I0,0,432,0><:f220, Times New Roman,,,>3.	Choose the Run menu's Start command.   
+The output should look like the following:
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f160, Times New Roman,,,><+@><:R1,1,1,432,><:I0,432,432,0><:f160, Times New Roman,,,>How <+!>old <-!>are you? 41
+
+<:f160, Times New Roman,,,>
+
+<:f200, Times New Roman,,,><+@><:R1,1,1,432,><:I0,0,432,0><:f200, Times New Roman,,,>4.	Type CLS in <+!>ttie <-!>Immediate window and press ENTER to clear the output
+
+<:f200, Times New Roman,,,><+@><:R1,1,1,432,><:I0,432,432,0>screen.
+
+<:f200, Times New Roman,,,>
+
+<:f200, Times New Roman,,,>
+
+<:f200, Times New Roman,,,>
+
+<:f480, Times New Roman,,,><+@><:f480, Times New Roman,,,><+">Entering Data with the INPUT Statement<-">
+
+<:f480, Times New Roman,,,>
+
+<:f480, Times New Roman,,,>
+
+<:f480, Times New Roman,,,>
+
+<:f200, Times New Roman,,,><+@><:I0,0,0,0><:f200, Times New Roman,,,>The <+!>INPUT <-!>statement displays a prompt string, then waits for the user to enter 
+some value.  The value entered in response to the prompt is assigned to the vaiiable specified in the <+!>INPUT <-!>statement.
+
+<:f200, Times New Roman,,,>
+
+<:f160, Times New Roman,,,><+@><:f160, Times New Roman,,,>INPUT "enter your age: 11, age%
+
+<:f160, Times New Roman,,,>
+
+<:f160, Times New Roman,,,><+@>PRINT age%
+
+<:f160, Times New Roman,,,>
+
+<:f160, Times New Roman,,,>
+
+<:f160, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:I0,0,0,0><:f220, Times New Roman,,,>If you typed 39 in response to <+!>the <-!>enter your age: prompt, the value 39 
+would be assigned to the variable age%, and that value would be printed by the 
+following PRINT age% statement.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><+!>INPUT <-!>also accepts s@@gs:
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@>INPUT "What is your name? 11, yourname$
+
+<:f220, Times New Roman,,,><+@>PRINT yourname$
+
+<:f220, Times New Roman,,,>
+
+<:f200, Times New Roman,,,><+@><:I0,0,0,0><:f200, Times New Roman,,,>If you want to combine the output of several <+!>PRINT <-!>statements on the same line, 
+place a semicolon (;) at the end of each <+!>PRINT <-!>statement.  Change the last example program as follows:
+
+<:f200, Times New Roman,,,>
+
+<:f200, Times New Roman,,,>
+
+<:f200, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:R1,1,1,432,><:I0,0,432,0><:f220, Times New Roman,,,>1.	Choose the File menu's New Program command to clear the View window.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:R1,1,1,432,><:I0,0,432,0>2.	Tnx <+!>ttie <-!>following example in the View window:
+
+<:f220, Times New Roman,,,>
+
+<:f160, Times New Roman,,,><+@><:R1,1,1,432,><:I0,0,0,0><:f160, Times New Roman,,,>PRINT "How old are you?";
+
+<:f160, Times New Roman,,,><+@><:R1,1,1,432,><:I0,0,0,0>PRINT 41
+
+<:f160, Times New Roman,,,>
+
+<:f160, Times New Roman,,,>
+
+<:f160, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:R1,1,1,432,><:I0,0,432,0><:f220, Times New Roman,,,>3.	Choose the Run menu's Start command.   
+The output should look like the following:
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f160, Times New Roman,,,><+@><:R1,1,1,432,><:I0,432,432,0><:f160, Times New Roman,,,>How <+!>old <-!>are you? 41
+
+<:f160, Times New Roman,,,>
+
+<:f200, Times New Roman,,,><+@><:R1,1,1,432,><:I0,0,432,0><:f200, Times New Roman,,,>4.	Type CLS in <+!>ttie <-!>Immediate window and press ENTER to clear the output
+
+<:f200, Times New Roman,,,><+@><:R1,1,1,432,><:I0,432,432,0>screen.
+
+<:f200, Times New Roman,,,>
+
+<:f200, Times New Roman,,,>
+
+<:f200, Times New Roman,,,>
+
+<:f480, Times New Roman,,,><+@><:f480, Times New Roman,,,><+">Entering Data with the INPUT Statement<-">
+
+<:f480, Times New Roman,,,>
+
+<:f480, Times New Roman,,,>
+
+<:f480, Times New Roman,,,>
+
+<:f200, Times New Roman,,,><+@><:I0,0,0,0><:f200, Times New Roman,,,>The <+!>INPUT <-!>statement displays a prompt string, then waits for the user to enter 
+some value.  The value entered in response to the prompt is assigned to the vaiiable specified in the <+!>INPUT <-!>statement.
+
+<:f200, Times New Roman,,,>
+
+<:f160, Times New Roman,,,><+@><:f160, Times New Roman,,,>INPUT "enter your age: 11, age%
+
+<:f160, Times New Roman,,,>
+
+<:f160, Times New Roman,,,><+@>PRINT age%
+
+<:f160, Times New Roman,,,>
+
+<:f160, Times New Roman,,,>
+
+<:f160, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:I0,0,0,0><:f220, Times New Roman,,,>If you typed 39 in response to <+!>the <-!>enter your age: prompt, the value 39 
+would be assigned to the variable age%, and that value would be printed by the 
+following PRINT age% statement.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><+!>INPUT <-!>also accepts s@@gs:
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@>INPUT "What is your name? 11, yourname$
+
+<:f220, Times New Roman,,,><+@>PRINT yourname$
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:I0,0,0,0>A string variable will accept whatever you type, since all entrie@@ven numbersare actually strings. (When you qW 4 2, you are not typing the number 42, but 
+rather the characters 4 and 2 . If the input variable is numerical, BASIC converts this string into a number.  If the input variable is a string, the character 
+sequence 4 2 is simply assigned to the string.)
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:I0,0,0,0>A numeric variable, however, can only be assigned a number.  If you @@ dog 
+when you should have entered a number, BASIC responds with @@ message 
+<:f180, Times New Roman,,,>Redo f rom start and a new prompt line.
+
+<:f180, Times New Roman,,,>
+
+<:f180, Times New Roman,,,>
+
+<:f180, Times New Roman,,,>
+
+<:f540, Times New Roman,,,><+@><:f540, Times New Roman,,,><+">Array's of Variables<-">
+
+<:f540, Times New Roman,,,>
+
+<:f540, Times New Roman,,,>
+
+<:f540, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:I0,0,0,0><:f220, Times New Roman,,,>If you wanted to keep track of <+!>the <-!>high tempe for each day in Jul you
+
+<:f220, Times New Roman,,,><+@>coulduse3lfloating-pointvariables,named julyl, july2, july3,andso 
+onffimugh july3l.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:I0,0,0,0>However, a group of related but individually named variables is clumsy to work 
+with; each variable has to be handled separately.  For example, if you wanted to 
+prompt the user for each temperature in July, you would have to write 31 individual prompt statements.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f160, Times New Roman,,,><+@><:f160, Times New Roman,,,>INPUT "What is the te p value for July 1? 11, j Yi
+
+<:f160, Times New Roman,,,>
+
+<:f160, Times New Roman,,,>
+
+<:f160, Times New Roman,,,>
+
+<:f160, Times New Roman,,,><+@>INPUT "What is the temp value for July 31@@ ,I i ly3
+
+<:f160, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:I0,0,0,0><:f220, Times New Roman,,,>An analogous problem occurs when you're trying to write a program that retrieves 
+the stored data.  You wouldn't want to write a program that displayed all 31 variable names to be able to retrieve the value for any specific one (say, the high 
+temperatureforJuly4-thevaluefor july4).Itwouldbemuchmoreconvenient if you could just give the computer the date (the number 4 ) and the comi)uter would select the riaht variable value
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+C><:I0,0,0,0>The solution is to give the entire set of values the swne name (july in our example) and distinguish the individual values by a numerical index called a "subscript." A group of identically named variables distinguished by their subscript 
+values is called an "array." (See Figure 4.2 for an exatnple.) Arrays can be especiary powerful when used in conjunction with loops (see the section titled "Repeating Program Operations").
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f520, Times New Roman,,,><+@><:f520, Times New Roman,,,><+">Deciaring <:f380, Times New Roman,,,>Arrays<-">
+
+<:f380, Times New Roman,,,>
+
+<:f380, Times New Roman,,,>
+
+<:f380, Times New Roman,,,>
+
+<:f200, Times New Roman,,,><+@><:I0,0,0,0><:f200, Times New Roman,,,>An array variable must rst be "declared" with a <+!>DIM <-!>statement, which establishes the size of the array.  A <+!>DIM <-!>statement must appear before the ar-ray variable 
+can be used.
+
+<:f200, Times New Roman,,,>
+
+<:f200, Times New Roman,,,>
+
+<:f200, Times New Roman,,,>
+
+<:f200, Times New Roman,,,><+@><:I0,0,0,0>The value given in the <+!>DIM <-!>statement specifies the maximum value for the variable's subscript.  For exatnple, the following statement declares an array of 32 
+floating-point variables named july, whose subscripts run from 0 to 31:
+
+<:f200, Times New Roman,,,>
+
+<:f200, Times New Roman,,,>
+
+<:f200, Times New Roman,,,>
+
+<:f160, Times New Roman,,,><+@><:f160, Times New Roman,,,>DIM july(31)
+
+<:f160, Times New Roman,,,>
+
+<:f200, Times New Roman,,,><+@><:S+540><:f200, Times New Roman,,,><+!>DIM <-!>also works with suing variables:<:S+540>
+
+<:f160, Times New Roman,,,><+@><:f160, Times New Roman,,,>DIM stringvar$(250)<:S+540>
+
+<:f160, Times New Roman,,,>
+
+<:f160, Times New Roman,,,>
+
+<:f380, Times New Roman,,,><+@><:S+270><:f380, Times New Roman,,,><+">Specifying Array Elements<-">
+
+<:f380, Times New Roman,,,>
+
+<:f380, Times New Roman,,,>
+
+<:f380, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+C><:I0,0,0,0><:f220, Times New Roman,,,>You can specify the nth member (or "element ') of an array simply by putting the 
+number n (or a variable or expression with the value n) in parentheses fouowing 
+the van'able name.  In this way the program can connect a specific variable with a 
+numberenteredbytheuser.Forexample,thefourthelementofthe july array 
+couldbespecifiedbyeither july(4) or-if d% equalsfour-july(d%) or 
+even july (SQR (16) ).
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f600, Times New Roman,,,><+@><:f600, Times New Roman,,,><+">L<-">
+
+<:f600, Times New Roman,,,>
+
+<:f600, Times New Roman,,,>
+
+<:f600, Times New Roman,,,>
+
+<:f540, Times New Roman,,,><+@><:f540, Times New Roman,,,><+">Reia<-">
+
+<:f540, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:I0,0,0,0><:f220, Times New Roman,,,>The following code fragment prompts the user for the date, then prints the high 
+temperature for that day in July (assuming that all the temperatures have been assigned to the array july ).
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f160, Times New Roman,,,><+@><:f160, Times New Roman,,,>DIM july(31)
+
+<:f160, Times New Roman,,,><+@>INPUT "enter July date: 11, date%
+
+<:f160, Times New Roman,,,><+@>PRINT "high temperature for Julyllo- date%; "was"; july(date%)
+
+<:f160, Times New Roman,,,>
+
+<:f160, Times New Roman,,,>
+
+<:f160, Times New Roman,,,>
+
+<:f500, Times New Roman,,,><+@><:f500, Times New Roman,,,><+">Logical Relations Used in Decision-Making<-">
+
+<:f500, Times New Roman,,,>
+
+<:f500, Times New Roman,,,>
+
+<:f500, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:I0,0,0,0><:f220, Times New Roman,,,>BASIC can decide whether two numbers or strings are <+!>the <-!>same or different.  On 
+the basis of such a decision, an appropriate group of program statements can be 
+executed or repeated.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:I0,0,0,0>For example, suppose the standard income-tax deduction is $2500.  If your 
+itemized deductions are less than $2500, you would take the standard deduction.   
+If your itemized deductions are greater than $2500, you would itemize.  An 
+income-tax program can make this decision and execute either the part of the program that performs itemized deductions or the part that takes the standard deduction.  The user doesn't have to tell the program what to do.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f200, Times New Roman,,,><+@><:f200, Times New Roman,,,>The following sections explain how BASIC makes logical decisions that can be
+
+<:f200, Times New Roman,,,><+@>used in your programs.
+
+<:f200, Times New Roman,,,>
+
+<:f200, Times New Roman,,,>
+
+<:f200, Times New Roman,,,>
+
+<:f440, Times New Roman,,,><+@><:f440, Times New Roman,,,><+">Relational Operators<-">
+
+<:f440, Times New Roman,,,>
+
+<:f440, Times New Roman,,,>
+
+<:f440, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:I0,0,0,0><:f220, Times New Roman,,,>Numbers and strings are compared using "relational operators." There are six 
+possible relationships, shown by the following operators:
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:R1,2,1,144,1,2592,><:S+540>	<+!>Relational Operator<-!>	<+!>Meaning<-!><:S+540>
+
+<:f220, Times New Roman,,,><+@><:R1,2,1,144,1,2592,>		Equal to<:S+540>
+
+<:f220, Times New Roman,,,><+@><:R1,2,1,144,1,2592,>	<<<;>	Not equal to<:S+540>
+
+<:f220, Times New Roman,,,><+@><:R1,2,1,144,1,2592,>	<;>	Greater than<:S+540>
+
+<:f220, Times New Roman,,,><+@><:R1,2,1,144,1,2592,>	<<	Lessthan<:S+540>
+
+<:f220, Times New Roman,,,><+@><:R1,2,1,144,1,2592,>	<;>=	Greater than or equal to<:S+540>
+
+<:f220, Times New Roman,,,><+@><:R1,2,1,144,1,2592,>	<<=	Less than or equal to<:S+540>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:S+270><+">NOTE BASICusesteequalsign(=)bothtoassignavaluetoavariableandalsotoindicate<-">
+
+<:f220, Times New Roman,,,><+@><+">logical equalfty.  BASIC knows vaich usage is intended from the context.<-">
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:S+540>The following list shows how these relationships are evaluated:<:S+540>
+
+<:f220, Times New Roman,,,><+@><:R1,2,1,144,1,2592,>	<+!>Relational Operation<-!>	<+!>Evaluation<-!><:S+540>
+
+<:f220, Times New Roman,,,><+@><:R1,2,1,144,1,2592,>	7 = 35	False<:S+540>
+
+<:f220, Times New Roman,,,><+@><:R1,2,1,144,1,2592,>	7 <<<;> 6	True<:S+540>
+
+<:f220, Times New Roman,,,><+@><:R1,2,1,144,1,2592,>	6 <;> 1	True<:S+540>
+
+<:f220, Times New Roman,,,><+@><:R1,2,1,144,1,2592,>	4 << 3	False<:S+540>
+
+<:f220, Times New Roman,,,><+@><:R1,2,1,144,1,2592,>	7 <<= 7	True<:S+540>
+
+<:f220, Times New Roman,,,><+@><:R1,2,1,144,1,2592,>	8 <;>= 7	True<:S+540>
+
+<:f220, Times New Roman,,,><+@><:R1,2,1,144,1,2592,>	apples =oranges	Depends on values of variables<:S+540>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:I0,0,0,0><:S+270>Asforthelaststatement-applesaren'toranges.Butif apples and oranges 
+were variable names, then the tmth or falsity of the statement would depend on 
+the values of these variables.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><+!>The following relational operations compare strings.  Are they true or false?<-!>
+
+<:f220, Times New Roman,,,>
+
+<:f180, Times New Roman,,,><+@><:f180, Times New Roman,,,><+!>"Tarzan" <<<;> "Jane"<-!>
+
+<:f180, Times New Roman,,,><+@><+!>ityll <+#><-!>- <+!><-#>ityll<-!>
+
+<:f180, Times New Roman,,,><+@><+!>plytt - flyis<-!>
+
+<:f180, Times New Roman,,,><+@>"miss" <;> <+!>"misty<-!>    <+!>1,<-!>
+
+<:f180, Times New Roman,,,>
+
+<:f180, Times New Roman,,,>
+
+<:f180, Times New Roman,,,>
+
+<:f180, Times New Roman,,,><+@><:I0,0,0,0>Tarzan and jane are different strings, so the first asserfion is true.  Y and Y 
+are the same character, so the second assertion is true.  Y and y are not the same 
+character, so the third assertion is false.
+
+<:f180, Times New Roman,,,>
+
+<:f180, Times New Roman,,,>
+
+<:f180, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:R1,1,1,432,><:I0,432,432,0><:f220, Times New Roman,,,>The last statement may be confusing at first; how can one string be "larger" or
+
+<:f80, Times New Roman,,,><+C><:R1,2,1,432,1,864,><:I0,432,864,0><:f80, Times New Roman,,,>4 4	<:f220, Times New Roman,,,>smallee' than another? it can be, and the decision is made this way.  The strings 
+are first compared, position by position, until BASIC finds characters that don't 
+match.  In this example, the fourth characters are the first nomnatching characters.   
+The decision of "largee, or 4'smallee' is then based on these differing characters, 
+in <+!>the <-!>following way.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:I0,0,0,0>Within the computer, characters are represented by numbers.  Letters coming later 
+in the alphabet have numeric values larger than those appearing earlier.  Since t 
+follows s in the alphabet, t is a "largee, letter, and the statement is therefore
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:I0,0,0,0>false; mi s t y is "largee' than mi s s. This ability to determine the relative value 
+of strings makes it easy to write a prograrn that can alphabetize a list of words or 
+names.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:I0,0,0,0>In most of these examples, numbers were compared with numbers and strings 
+with strings.  But any combination of numbers and numerical variables can be 
+compared; the same is true for strings and string variables.  The <+!>orily <-!>things you 
+cannot compare are numerical values with string values because the comparison is 
+logically meaningless.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f380, Times New Roman,,,><+@><:f380, Times New Roman,,,><+">Boolean Expressions<-">
+
+<:f380, Times New Roman,,,>
+
+<:f380, Times New Roman,,,>
+
+<:f380, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:I0,0,0,0><:f220, Times New Roman,,,>Logical assertions are called "Boolean expressions" (for <+#>George<-#> Boole, who formulated some of the rules of mathematical logic).  Boolean operations are concemed with only one thing: is a Boolean expression true or false?  Unlike 
+mathematical expressions, which evaluate to numbers, B expressions eval-
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:R1,1,1,2160,><:I0,2160,2160,0>.,.       11     @@t
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:R1,1,1,2304,><:I0,2304,2304,0>I
+
+<:f220, Times New Roman,,,><+@>uate to one of two values: "true" or "false."
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@>Computers use numbers to represent "true" and "false." To see how BASIC codes
+
+<:f220, Times New Roman,,,><+@><+!>"true" <-!>and "false," enter and run these two lines, as follows:
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:S+540>1. <+!>Choose the File menu's New Program comm<-!>  <+!>to clear the View window.<-!><:S+540>
+
+<:f220, Times New Roman,,,><+@><+!>2. TyW the following example in the View window:<-!><:S+540>
+
+<:f160, Times New Roman,,,><+@><:R1,1,1,432,><:I0,432,432,0><:S+270><:f160, Times New Roman,,,>PRINT 5 <;> <+!>6<-!>
+
+<:f160, Times New Roman,,,><+@><:R1,1,1,432,><:I0,432,432,0>PRINT <+!>6 <;> 5<-!>
+
+<:f160, Times New Roman,,,>
+
+<:f160, Times New Roman,,,>
+
+<:f160, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:R1,1,1,432,><:I0,0,432,0><:f220, Times New Roman,,,>3.	Choose the Run menu's Stan command.   
+The output should look like the following:
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:R1,1,1,432,><:I0,432,432,0>0
+
+<:f220, Times New Roman,,,><+@><:R1,1,1,432,><:I0,432,432,0>-1
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@>The display shows 0 on the first line,
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@>The number 5 is not greater than 6, so BASIC prints its value for "false": 0.
+
+<:f220, Times New Roman,,,><+@>The number 6 is greater than 5, so BASIC prints its value for "true": - 1.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@>on the second.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f200, Times New Roman,,,><+C><:R1,1,1,576,><:I0,0,576,0><:f200, Times New Roman,,,>4.	<:f240, Times New Roman,,,>Type <:f200, Times New Roman,,,>CLS intheImmediatewindowandpressENTERtocleartheoutput 
+screen.
+
+<:f200, Times New Roman,,,>
+
+<:f440, Times New Roman,,,><+@><:f440, Times New Roman,,,><+">Compound Expressions<-">
+
+<:f440, Times New Roman,,,>
+
+<:f440, Times New Roman,,,>
+
+<:f440, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:I0,0,0,0><:f220, Times New Roman,,,>In BASIC, a compound Boolean expression is created connecting o Boole 
+expressions with a "logical operator." The two most commonly used logical operators are <+!>AND <-!>and <+!>OR.<-!>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f200, Times New Roman,,,><+@><:I0,0,0,0><:f200, Times New Roman,,,>The <+!>AND <-!>operator requires both expressions to be true if compound expres-
+
+<:f200, Times New Roman,,,><+@>sion is to be true.  When the <+!>OR <-!>operator is used, only one of the expressions has 
+to be true for the compound expression to be tnie.
+
+<:f200, Times New Roman,,,>
+
+<:f200, Times New Roman,,,>
+
+<:f200, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:I0,0,0,0><:f220, Times New Roman,,,>,Ibe following examples are compound expressions that combine two simple expressions by using <+!>AND <-!>or <+!>OR:<-!>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:R1,2,1,144,1,3744,><:S+540>	<+!>Expression<-!>	<+!>Evaluation<-!><:S+540>
+
+<:f220, Times New Roman,,,><+@><:R1,2,1,144,1,3744,>	<+!>10 <;> <-!>5 AND 100 << 200	True<:S+540>
+
+<:f220, Times New Roman,,,><+@><:R1,2,1,144,1,3744,>	3<<6 AND 7<;>10	False<:S+540>
+
+<:f220, Times New Roman,,,><+@><:R1,2,1,144,1,3744,>	8<<7 OR 90<;>80	True<:S+540>
+
+<:f220, Times New Roman,,,><+@><:R1,2,1,144,1,3744,>	2<<1 OR 3<;>60	False<:S+540>
+
+<:f220, Times New Roman,,,><+@><:R1,2,1,144,1,3744,>	ityll <+"><;> <-">"NY' AND 'eyes" <<<;> "now?	True<:S+540>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:S+270>The <+!>NOT <-!>operator reverses the
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@>or falsity of
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+B>ssion.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:R1,2,1,144,1,3744,><:S+540>	<+!>Expression<-!><:S+540>
+
+<:f220, Times New Roman,,,><+@><:R1,2,1,144,1,3744,>	NOT (5 <;> 1 0)	<+!>True<-!><:S+540>
+
+<:f220, Times New Roman,,,><+@><:R1,2,1,144,1,3744,>	NOT (8 << 7 OR 90 <;> 80)	False<:S+540>
+
+<:f220, Times New Roman,,,><+@><:R1,2,1,144,1,3744,>	NOT (3 << 6 AND 7 <;> 0)	True<:S+540>
+
+<:f220, Times New Roman,,,><+@><:R1,2,1,144,1,3744,>	NOT (0)	True<:S+540>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:I0,0,0,0><:S+270>The logic of the last example may not be immediately obvious.  In BASIC, false is 
+zero.  Therefore, NOT (0) means "not false," or true.  Combinations of <+!>AND,<-!>
+
+<:f220, Times New Roman,,,><+@><:I0,0,0,0><+!>OR, <-!>and <+!>NOT <-!>can be used to build up very complex expressions.  There is no practical limit to their complexity, except the obvious one of writing an expression that 
+is difficult to read.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:I0,0,0,0>When Boolean expressions are evaluated, the precedence of evaluation is taken in 
+the saine order as arithmetic expressions, with <+!>AND <-!>equivalent to multiplication 
+and <+!>OR <-!>equivalent to addition.  Evaluation goes from left to eight, with all the 
+simple expressions evaluated first.  All the AND-connected expressions are evaluated next, followed by the OR-comected expressions.  As with arithmetic expressions, parentheses can be used to control the order of evaluation, rather than 
+relying on the rules of precedence.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@>See Chapter 1, "Control-Flow Structures," in <+">Programming in BASIC, <-">for more
+
+<:f220, Times New Roman,,,><+@>explanation of why BASIC considers -1 equivalent to true.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@>The next sections <+!>show how <-!>Boolean expressions are used in programs.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:R1,1,1,576,><:I0,0,0,0>a  <:f460, Times New Roman,,,><+">Logical Statements<-">
+
+<:f460, Times New Roman,,,><+@><+">to Control Program Flow<-">
+
+<:f460, Times New Roman,,,>
+
+<:f460, Times New Roman,,,>
+
+<:f460, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:I0,0,0,0><:f220, Times New Roman,,,>You are always deciding what to do next by evaluating your pxiorifies and desires, 
+asking yourself which is most important at the moment.  Similarlv.  BASIC has a 
+mechanism that allows your program to select which set of operations (that is, 
+which part of the program) will be executed next.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f200, Times New Roman,,,><+@><:I0,0,0,0><:f200, Times New Roman,,,>TWs mechanism is the <+!>IF<-!> <+!>..<-!> <+!>THEN...ELSE <-!>Statement.  If a Boolean expression is 
+true, the statements following <+!>THEN <-!>ar-e executed.  If the expression is false, the 
+statements following <+!>ELSE <-!>are executed.  A Boolean "pression must be either 
+true or false, so one or the other group of statements has to execute.  Both cannot 
+execute.
+
+<:f200, Times New Roman,,,>
+
+<:f200, Times New Roman,,,>
+
+<:f200, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:I0,0,0,0><:f220, Times New Roman,,,>The process of selecting among two or more possible actions (or s of pro-
+
+<:f220, Times New Roman,,,><+@>gram code) is called "branching." The analogy is with the way a tree branch subdivides into more and more branches.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f200, Times New Roman,,,><+@><:f200, Times New Roman,,,>TWs is the syntax of the <+!>iF<-!> <+!>..<-!> <+!>THEN<-!> <+!>..<-!> <+!>ELSE <-!>state
+
+<:f200, Times New Roman,,,>
+
+<:f200, Times New Roman,,,><+@><:R1,1,1,144,><:I0,144,0,0><+!><+">IF <-!><-">booleanexpression <+!><+">THEN<-!><-"> 
+<+">statements to do something<-"> 
+<+!>ELSE<-!>
+
+<:f200, Times New Roman,,,>
+
+<:f200, Times New Roman,,,><+@><:R1,1,1,144,><:I0,0,0,0><+">statements to do something else<-">
+
+<:f200, Times New Roman,,,><+@><+!>END IF<-!>
+
+<:f200, Times New Roman,,,>
+
+<:f200, Times New Roman,,,>
+
+<:f200, Times New Roman,,,>
+
+<:f200, Times New Roman,,,><+@>'i
+
+<:f200, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:I0,0,0,0><:f220, Times New Roman,,,>When Boolean expressions are evaluated, the precedence of evaluation is taken in 
+the saine order as arithmetic expressions, with <+!>AND <-!>equivalent to multiplication 
+and <+!>OR <-!>equivalent to addition.  Evaluation goes from left to eight, with all the 
+simple expressions evaluated first.  All the AND-connected expressions are evaluated next, followed by the OR-comected expressions.  As with arithmetic expressions, parentheses can be used to control the order of evaluation, rather than 
+relying on the rules of precedence.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@>See Chapter 1, "Control-Flow Structures," in <+">Programming in BASIC, <-">for more
+
+<:f220, Times New Roman,,,><+@>explanation of why BASIC considers -1 equivalent to true.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@>The next sections <+!>show how <-!>Boolean expressions are used in programs.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:R1,1,1,576,><:I0,0,0,0>a  <:f460, Times New Roman,,,><+">Logical Statements<-">
+
+<:f460, Times New Roman,,,><+@><+">to Control Program Flow<-">
+
+<:f460, Times New Roman,,,>
+
+<:f460, Times New Roman,,,>
+
+<:f460, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:I0,0,0,0><:f220, Times New Roman,,,>You are always deciding what to do next by evaluating your pxiorifies and desires, 
+asking yourself which is most important at the moment.  Similarlv.  BASIC has a 
+mechanism that allows your program to select which set of operations (that is, 
+which part of the program) will be executed next.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f200, Times New Roman,,,><+@><:I0,0,0,0><:f200, Times New Roman,,,>TWs mechanism is the <+!>IF<-!> <+!>..<-!> <+!>THEN...ELSE <-!>Statement.  If a Boolean expression is 
+true, the statements following <+!>THEN <-!>ar-e executed.  If the expression is false, the 
+statements following <+!>ELSE <-!>are executed.  A Boolean "pression must be either 
+true or false, so one or the other group of statements has to execute.  Both cannot 
+execute.
+
+<:f200, Times New Roman,,,>
+
+<:f200, Times New Roman,,,>
+
+<:f200, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:I0,0,0,0><:f220, Times New Roman,,,>The process of selecting among two or more possible actions (or s of pro-
+
+<:f220, Times New Roman,,,><+@>gram code) is called "branching." The analogy is with the way a tree branch subdivides into more and more branches.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f200, Times New Roman,,,><+@><:f200, Times New Roman,,,>TWs is the syntax of the <+!>iF<-!> <+!>..<-!> <+!>THEN<-!> <+!>..<-!> <+!>ELSE <-!>state
+
+<:f200, Times New Roman,,,>
+
+<:f200, Times New Roman,,,><+@><:R1,1,1,144,><:I0,144,0,0><+!><+">IF <-!><-">booleanexpression <+!><+">THEN<-!><-"> 
+<+">statements to do something<-"> 
+<+!>ELSE<-!>
+
+<:f200, Times New Roman,,,>
+
+<:f200, Times New Roman,,,><+@><:R1,1,1,144,><:I0,0,0,0><+">statements to do something else<-">
+
+<:f200, Times New Roman,,,><+@><+!>END IF<-!>
+
+<:f200, Times New Roman,,,>
+
+<:f200, Times New Roman,,,>
+
+<:f200, Times New Roman,,,>
+
+<:f200, Times New Roman,,,><+@>'i
+
+<:f200, Times New Roman,,,>
+
+<:f200, Times New Roman,,,><+@><:I0,0,0,0>Try the following simple example to use the IF .. <+!>THEN...ELSE <-!>statement to decide 
+whether a number entered is greater than, less than, or equal to 100:
+
+<:f200, Times New Roman,,,>
+
+<:f200, Times New Roman,,,><+@><:R1,1,1,432,><:I0,0,432,0>1.	Choose the File menu's New Program conunand to clear the View window.
+
+<:f200, Times New Roman,,,>
+
+<:f200, Times New Roman,,,><+@><:R1,1,1,432,><:I0,0,432,0>2.	Type the following example in the View window:
+
+<:f200, Times New Roman,,,>
+
+<:f160, Times New Roman,,,><+@><:R1,1,1,432,><:I0,0,0,0><:f160, Times New Roman,,,>INPUT "enter a number: ", n
+
+<:f160, Times New Roman,,,>
+
+<:f160, Times New Roman,,,><+@><:R1,1,1,432,><:I0,0,0,0>IF n <+"><;> <-">100 THEN
+
+<:f160, Times New Roman,,,><+@><:R1,2,1,432,1,720,><:I0,432,432,0>PRINT n; "is greater than 10011
+
+<:f160, Times New Roman,,,><+@><:R1,1,1,432,><:I0,432,432,0>ELSE
+
+<:f160, Times New Roman,,,><+@><:R1,2,1,432,1,720,><:I0,432,432,0>PRINT n; "is <+!>less <-!>than or equal to 100
+
+<:f160, Times New Roman,,,><+@><:R1,1,1,432,><:I0,432,432,0>END IF
+
+<:f160, Times New Roman,,,>
+
+<:f160, Times New Roman,,,>
+
+<:f160, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:R1,1,1,576,><:I0,0,576,0><:f220, Times New Roman,,,>3.	ChoosetheRunmenu'sStartcommand.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:R1,1,1,576,><:I0,0,0,0>The logical opposite of "greater than" is "less than or equal to" (not "less 
+than").  Run this example with several values for n, including a value of 100 to 
+verifythatthe is less than or equal to 100 statementisdisplayed.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@>4. Type <:f180, Times New Roman,,,>CLS <:f220, Times New Roman,,,>in the Immediate window and press <:f180, Times New Roman,,,><+!>ENTER to <:f220, Times New Roman,,,><-!>clear the output
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:I0,0,0,0>See Chapter 1, "Control-Flow Structures," in <+">Programming in BASIC <-">for a more 
+detailed explanation of the <+!>IF<-!> <+!>..<-!> <+!>THEN<-!>... <+!>ELSE <-!>statement and other decision stnictures available in QuickBASIC.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+@><:R1,1,1,4752,><:I0,4752,4752,0>Al
+
+<:f220, Times New Roman,,,>
+
+<:f580, Times New Roman,,,><+@><:f580, Times New Roman,,,><+">Repeating Program Operations<-">
+
+<:f580, Times New Roman,,,>
+
+<:f580, Times New Roman,,,>
+
+<:f580, Times New Roman,,,>
+
+<:f220, Times New Roman,,,><+C><:I0,0,0,0><:f220, Times New Roman,,,>BASIC offers several ways to execute a group of program statements repeatedly.   
+You can repeat them a fixed number of times or until a particular logical condition 
+is met.  If you want to execute a block of statements 100 times, you need only type 
+them in once.  BASIC's control structures then control the repetitions.
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f220, Times New Roman,,,>
+
+<:f200, Times New Roman,,,><+@><:I0,0,0,0><:f200, Times New Roman,,,>The ability to repeat program statements has many uses.  For example, to raise a 
+number N to the power <+">P, N <-">must be multiplied by itself P times.  To enter data for 
+a ten-element affay, you must prompt the user ten times.
+
+<:f200, Times New Roman,,,>
+
+
+>

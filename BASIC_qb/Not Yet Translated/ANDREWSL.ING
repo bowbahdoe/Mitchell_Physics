@@ -1,0 +1,23 @@
+CLS
+F1 = 0
+X = .01
+Ms=.0059 REM Sling in kilograms
+Print "What is the mass of the ball? " INPUT Mball
+TotalM = Ms + Mb
+
+DATA .5, .75, 1, 1.5, 1.75, 1.92, 2.1, 2.3, 2.95, 2.6, 2.7, 2.8, 2.9, 3, 3.2
+DATA 3.4, 3.5, 3.6, 3.7, 3.8, 3.95, 3.99, 4.05, 4.1, 4.2, 4.4, 4.5, 4.6,4.7
+DATA 4.75, 4.8, 5, 5.1, 5.35, 5.45, 5.5, 5.55, 5.65, 5.8, 5.95, 6, 6.1, 6.3
+DATA 6.45, 6.55, 6.6, 6.75, 6.95, 7
+
+
+V1 = 0
+g = 9.8
+TotalA = 0
+DO UNTIL F2 = 100000
+READ F2
+AREA=.5*.01(F2-F1)+.01*F1
+TotalA = TotalA + Area
+LET F1 = F2
+LOOP
+
