@@ -22,14 +22,12 @@ def checkAnswer(windspeed=None,airspeed=None):
         print "What was the air speed of the plane?"
         airspeed = eval(raw_input())
         print "Airspeed = "+str(airspeed)
-    print type(windspeed)
-    
-    print type(airspeed)
+
     windspeed = -windspeed
     #sean please rename these variables to something
     #that makes sense in terms of the physics
     z = (2.0/3) * math.pi
-    print type(z)
+
     fb = math.sqrt((airspeed**2) - ((windspeed**2) * (math.sin((z)) ** 2)))
     j = fb
     y = math.atan(windspeed * math.sin(float(z)) / j)
@@ -46,7 +44,7 @@ def checkAnswer(windspeed=None,airspeed=None):
     if abs(r-resval) < (.05 * r) or abs(time - 800/r) < (.05 * 800/r):
         report(r,m,True)
     else:
-        pass
+        
         report(r,m,False)
                         
 
@@ -80,16 +78,16 @@ def showProblem(isSample, numberofproblems=1):
         answer. if it is a sample it does not
         if it is it does.'''
     exec clearscreen
-    w = round(((random.random() + 1) * 40),2)
-    x = round(((random.random() + 3.5) * 125),2)
+    w = ((random.random() + 1) * 40)
+    x = ((random.random() + 3.5) * 125)
     #w = windspeed, x = airspeed
     for i in range(numberofproblems):
-        print "An airplane has a still air speed of "+ str(x) + " mi/hr and a pilot intends to"
+        print "An airplane has a still air speed of "+ str(round(x,2)) + " mi/hr and a pilot intends to"
         print "fly this plane from city A to city B which is 800 miles from city A"
         print "at a bearing direction of 300 degrees"
         print " "
         print "During his preflight check, the pilot learns that he must contend with a"
-        print "wind of " + str(w) + " mi/hr blowing from a direction of 180 degrees bearing."
+        print "wind of " + str(round(w,2)) + " mi/hr blowing from a direction of 180 degrees bearing."
 
         print " "
         print "At what HEADING must he pilot the plane and how much TIME will the trip"
@@ -100,12 +98,13 @@ def showProblem(isSample, numberofproblems=1):
         if isSample !=True:
             checkAnswer(w,x)
 
-                 
-    if isSample ==True:
-        exec clearscreen
-        main()
+               
+    
+    exec clearscreen
+    main()
 
 def report(r,m, isResponseCorrect):
+    exec clearscreen
     print "  THE RESULTANT VELOCITY IS " +str(r)+ " mi/hr"
     print "                       at"
     print "  A HEADING OF "+ str(360 - m)+ " DEGREES BEARING"
@@ -120,13 +119,16 @@ def report(r,m, isResponseCorrect):
     print " "
     if isResponseCorrect==True:
         print "You got the question correct"
+        
     else:
         print "You got the question wrong"
+    
     print " "
-    print "Press enter to return to the menu"
+
+    print "Press enter to continue"
     x = raw_input()
     exec clearscreen
-    main()
+    
 def handleChoice():
     choice = input()
     if choice == 1:
@@ -144,6 +146,7 @@ def handleChoice():
     elif choice == 5:
         sys.exit()
 def main():
+    exec clearscreen
     printMenu()
     handleChoice()
     pass
