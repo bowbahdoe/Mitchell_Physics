@@ -20,16 +20,7 @@
 #  ^ original program
 
 #Credit goes to Marty Thornley for this program
-from sys import platform as _platform
-import os
-if _platform == "linux" or _platform == "linux2":
-    clearscreen = "os.system('clear')"
-    # linux
-elif _platform == "darwin":
-    clearscreen = "os.system('clear')"
-    # OS X
-elif _platform == "win32":
-    clearscreen = "os.system('cls')"
+
 
 def main():
     print("Enter the Length")
