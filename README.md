@@ -1,4 +1,9 @@
-This is the repository we are going to use to convert mr Mitchell's BASIC programs to programs that will run on a modern 
-computer. As such any language is acceptable as long as it will run on a windows install above XP. Just make sure to 
-edit the makefile with the appropriate commands to compile your program to a exe [For now this does not apply to interpreted
-languages such as python, php, ruby, etc}
+INSTRUCTIONS:
+
+For Python scripts (.py):
+    1. Download python from http://www.python.org/
+    2. Once python is installed run IDLE
+    3. Open the scripts with idle and run them
+For the QBASIC scripts (.bas)
+    1. Download QB64 from http://www.qb64.net/
+    2. Follow instructions onsite to compile the scripts
