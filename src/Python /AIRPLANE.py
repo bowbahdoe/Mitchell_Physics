@@ -149,5 +149,7 @@ def main():
     exec clearscreen
     printMenu()
     handleChoice()
+    print "Press enter to end"
+    x = raw_input()
     pass
 main()

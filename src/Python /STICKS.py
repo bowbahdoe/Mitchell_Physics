@@ -2,6 +2,7 @@
 #Is it useful - no
 #did i port it - sure why not
 
+
 from sys import platform as _platform
 import os
 if _platform == "linux" or _platform == "linux2":
@@ -41,3 +42,5 @@ if __name__ =="__main__":
     print "To Win you must take the last stick"
     x = main(15)#< ------ change this line to change the # of sticks
     print "You Win!!"
+    print " " 
+    print "Press enter to end"

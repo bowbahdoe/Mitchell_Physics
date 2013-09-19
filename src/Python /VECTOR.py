@@ -21,5 +21,8 @@ def main():
         counter += 1
     print "The resultant's magnitude is " + str(ansmag)
     print "and it's direction is " + str(ansang) + " degrees polar"
+    print " "
+    print "Press enter to end"
+    x = raw_input()
 if __name__ == "__main__":
     main()

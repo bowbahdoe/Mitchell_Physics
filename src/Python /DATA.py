@@ -31,6 +31,8 @@ def main():
     height = input()
     volume = length * width * height
     print("Volume of the box is " + str(volume))
-
+    print(" ")
+    print("Press enter to end")
+    x = raw_input()
 if __name__=="__main__":
     main()

@@ -8,5 +8,8 @@ def main():
         a2 = a1 + 90
         print "Vector #1 has a magnitude of " + str(v1) + " and its direction is " + str(a1) + " degrees (polar)."
         print "vector #2 has a magnitude of " + str(v2) + " and its direction is" + str(a2) + " degrees (polar)." 
+        print " "
+        print "Press enter to end"
+        x = raw_input()
 if __name__ == "__main__":
     main()

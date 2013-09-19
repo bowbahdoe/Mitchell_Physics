@@ -11,7 +11,9 @@ def main():
     print("Vector #1 has a magnitude of " + str(vv1) + " and a direction of " + str(aa1) + " degrees polar.")
     print("Vector #1 has a magnitude of " + str(vv2) + " and a direction of " + str(aa2) + " degrees polar.")
     print("Vector #1 has a magnitude of " + str(vv3) + " and a direction of " + str(aa3) + " degrees polar.")
-
+    print(" ")
+    print("Press enter to end")
+    x = raw_input()
    
     
 if __name__ == "__main__":
